@@ -1,0 +1,15 @@
+{
+    "name": "Java, Python, and C++",
+    "image": "ubuntu:20.04",
+    "extensions": [
+        "vscjava.vscode-java-pack",
+        "ms-python.python",
+        "ms-vscode.cpptools"
+    ],
+    "settings": {
+        "python.pythonPath": "/usr/bin/python3"
+    },
+    "forwardPorts": [],
+    "postCreateCommand": "sudo chown -R vscode: /workspaces",
+    "remoteUser": "vscode"
+}
