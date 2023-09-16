@@ -21,7 +21,7 @@ ENV PYTHON_HOME /usr/bin/python3
 # COPY ./seu_codigo_java.java /src/seu_codigo_java.java
 # COPY ./seu_codigo_python.py /src/seu_codigo_python.py
 
-# Defina o diretório de trabalho
+# Defina o diretório de trabalh
 WORKDIR /src
 
 # Comando padrão para executar um arquivo C (substitua pelo seu nome de arquivo)
