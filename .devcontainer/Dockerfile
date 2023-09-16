@@ -22,7 +22,7 @@ ENV PYTHON_HOME /usr/bin/python3
 # COPY ./seu_codigo_python.py /src/seu_codigo_python.py
 
 # Defina o diretório de trabalho
-WORKDIR /src
+#WORKDIR /src
 
 # Comando padrão para executar um arquivo C (substitua pelo seu nome de arquivo)
 # CMD ["gcc", "-o", "seu_codigo_c", "seu_codigo_c.c", "&&", "./seu_codigo_c"]
